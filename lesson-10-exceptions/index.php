@@ -102,5 +102,9 @@
 	}
 
 	catch (PaymentGatewayException $e){
-		die($e->getMessage());
+		//die($e->getMessage());
+	}
+
+	finally{
+		die('Finally...');
 	}
